@@ -42,11 +42,9 @@ const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
           </div>
           
           <div className="flex justify-center mb-6">
-            <img 
-              src="/syncron_favicon_512px (1) copy.png" 
-              alt="Syncron Logo" 
-              className="w-24 h-24 object-contain"
-            />
+            <div className="w-24 h-24 bg-orange-100 rounded-full flex items-center justify-center">
+              <Shield className="w-12 h-12 text-orange-500" />
+            </div>
           </div>
           
           <h2 className="text-3xl font-bold text-gray-800 mb-2">Welcome Back</h2>
